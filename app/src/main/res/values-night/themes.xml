@@ -1,16 +1,21 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.EmptyProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <!-- Base application theme for night mode. -->
+    <style name="Theme.AntiqueCalculator" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/antique_primary_dark</item> <!-- Using darker primary for night -->
+        <item name="colorPrimaryVariant">@color/antique_primary</item> <!-- A slightly lighter variant for night accents if needed -->
+        <item name="colorOnPrimary">@color/antique_background</item> <!-- Light text on dark primary -->
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/antique_accent</item>
+        <item name="colorSecondaryVariant">@color/antique_accent</item>
+        <item name="colorOnSecondary">@color/antique_text_color</item> <!-- Dark text on accent -->
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <!-- Window background. -->
+        <item name="android:windowBackground">@color/antique_background</item> <!-- Background might need to be darker too, but using beige for now -->
+        <!-- Default Text Color -->
+        <item name="android:textColor">@color/antique_text_color</item>
+        <!-- Accent color for controls -->
+        <item name="colorAccent">@color/antique_accent</item>
     </style>
 </resources>
