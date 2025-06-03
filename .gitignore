@@ -1,0 +1,20 @@
+# Ignore Android SDK files
+android-sdk/
+
+# Ignore other common Android project files/directories
+*.iml
+.gradle/
+/local.properties
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build/
+/captures/
+.cxx/
+*.hprof
+*.keystore
+*.jks
